@@ -1,0 +1,100 @@
+body{
+    background-color:rgb(255, 248, 217);
+}
+
+a {
+    text-decoration: none;
+}
+
+#title{
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar li{
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Georgia, serif;
+}
+
+#navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #04AA6D;
+}
+
+#informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, serif;
+}
+
+#informacoes .perfil{
+    align-items: flex-start;
+    margin: 15px;
+    list-style-type: 0;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#informacoes .texto1 {
+    /* border: red solid; */
+    text-align: center;
+    margin-left: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacoes .linkedIn {
+    /* border: red solid; */
+    margin: 5px;
+    text-decoration: none;
+    width: 145px;
+}
+
+#informacoes .whatsapp {
+    /* border: red solid; */
+    margin: 5px;
+    text-decoration: none;
+    width: 150px;
+}
+
+#informacoes .github{
+    /* border: red solid; */
+    margin: 5px;
+    text-decoration: none;
+    width: 145px;
+}
+
+#informacoes2 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0vh 15vh 10vh 15vh;
+}
+
+#linguagens img{
+    height: 150px;
+}
