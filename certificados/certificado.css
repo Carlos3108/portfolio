@@ -42,65 +42,20 @@ a {
     background-color: #04AA6D;
 }
 
-#informacoes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Georgia, serif;
-}
-
-#informacoes .perfil{
-    align-items: flex-start;
-    margin: 15px;
-    list-style-type: 0;
-    border-radius: 5px;
-    width: 200px;
-}
-
-#informacoes .texto1 {
-    text-align: center;
-    margin-left: 50px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#informacoes .linkedIn {
-    margin: 5px;
-    text-decoration: none;
-    width: 145px;
-}
-
-#informacoes .whatsapp {
-    margin: 5px;
-    text-decoration: none;
-    width: 150px;
-}
-
-#informacoes .github{
-    margin: 5px;
-    text-decoration: none;
-    width: 145px;
-}
-
-#informacoes2 {
-    font-family: Georgia, serif;
-    font-size: 20px;
-    text-align: center;
-    margin: 0vh 15vh 10vh 15vh;
-}
 .certificados{
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
+    
 }
 
 .container-certificado{
     margin: 5px;
     border: 3px solid #04AA6D;
     border-radius: 8px;
+    padding: 10px;
+    font-family: Georgia, serif;
 }
 
 .certificados-img {
