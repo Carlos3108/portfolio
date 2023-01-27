@@ -1,5 +1,6 @@
 body{
     background-color:rgb(255, 248, 217);
+    font-family: Georgia, serif;
 }
 
 a {
@@ -42,7 +43,27 @@ a {
     background-color: #04AA6D;
 }
 
-.construcao {
+.container-projetos{
+    border: #04AA6D solid 3px;
+}
+
+.container-projetos h2{
+    text-align: center;
+}
+
+.projetos {
+    text-align: center;  
+    border: #04AA6D solid 3px;
+    width: 660px;
+    margin: 10px;
+}
+
+
+.projetos img{
+    width: 650px;
+    margin: 5px;
+}
+/* .construcao {
     display: flex;
     justify-content: center;
     height: 500px;
@@ -53,4 +74,4 @@ a {
     padding: 98px;
     align-items: center;
     height: 300px;
-}
+} */
