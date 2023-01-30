@@ -3,6 +3,10 @@ body{
     font-family: Georgia, serif;
 }
 
+body h2{
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -45,15 +49,19 @@ a {
 
 .container-projetos{
     border: #04AA6D solid 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
 }
 
-.container-projetos h2{
-    text-align: center;
-}
+
 
 .projetos {
+    padding: 5px;
     text-align: center;  
     border: #04AA6D solid 3px;
+    border-radius: 8px;
     width: 660px;
     margin: 10px;
 }
@@ -61,7 +69,11 @@ a {
 
 .projetos img{
     width: 650px;
-    margin: 5px;
+    padding: 5px;
+}
+
+.projetos a {
+    color: black;
 }
 /* .construcao {
     display: flex;
