@@ -48,7 +48,6 @@ a {
 }
 
 .container-projetos{
-    border: #04AA6D solid 3px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
