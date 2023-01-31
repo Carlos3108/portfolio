@@ -1,5 +1,6 @@
 body{
     background-color:rgb(255, 248, 217);
+    font-family: Georgia, serif;
 }
 
 a {
@@ -31,7 +32,7 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Georgia, serif;
+    
 }
 
 #navbar li a:hover:not(.active) {
@@ -42,15 +43,15 @@ a {
     background-color: #04AA6D;
 }
 
-.construcao {
+.sobre {
     display: flex;
     justify-content: center;
-    height: 500px;
-    margin: 25px;
+    padding: 10px;
 }
 
-.construcao img {
-    padding: 98px;
-    align-items: center;
-    height: 300px;
+.conteudo {
+    border: 3px solid #04AA6D;
+    width: 800px;
+    font-size: large;
+    text-align: center;
 }
