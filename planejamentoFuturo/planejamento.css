@@ -1,4 +1,5 @@
 body{
+    font-family: Georgia, serif;
     background-color:rgb(255, 248, 217);
 }
 
@@ -8,7 +9,6 @@ a {
 
 #title{
     text-align: center;
-    font-family: Georgia, serif;
 }
 
 #navbar ul{
@@ -31,7 +31,6 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Georgia, serif;
 }
 
 #navbar li a:hover:not(.active) {
@@ -42,15 +41,15 @@ a {
     background-color: #04AA6D;
 }
 
-.construcao {
+.container-planos {
     display: flex;
     justify-content: center;
-    height: 500px;
-    margin: 25px;
+    padding: 10px;
 }
 
-.construcao img {
-    padding: 98px;
-    align-items: center;
-    height: 300px;
+.competencias {
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid #04AA6D;
+    width: 600px;
 }
